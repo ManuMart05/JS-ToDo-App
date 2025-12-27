@@ -13,6 +13,12 @@
 
         <input type="text" id="taskInput" placeholder="Enter a task">
         <button id="addTaskBtn">Add Task</button>
+        <div class="filters">
+    <button onclick="setFilter('all')">All</button>
+    <button onclick="setFilter('active')">Active</button>
+    <button onclick="setFilter('completed')">Completed</button>
+</div>
+
 
         <ul id="taskList"></ul>
     </div>
